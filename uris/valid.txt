@@ -1,0 +1,99 @@
+ftp://ftp.is.co.za/rfc/rfc1808.txt
+http://www.ietf.org/rfc/rfc2396.txt
+ldap://[2001:db8::7]/c=GB?objectClass?one
+mailto:John.Doe@example.com
+news:comp.infosystems.www.servers.unix
+tel:+1-816-555-1212
+telnet://192.0.2.16:80/
+urn:oasis:names:specification:docbook:dtd:xml:4.1.2
+foo://example.com:8042/over/there?name=ferret#nose
+www.w3.org/Addressing/
+g:h
+http://a/b/c/g
+http://a/b/c/g
+http://a/b/c/g/
+http://a/g
+http://g
+http://a/b/c/d;p?y
+http://a/b/c/g?y
+http://a/b/c/d;p?q#s
+http://a/b/c/g#s
+http://a/b/c/g?y#s
+http://a/b/c/;x
+http://a/b/c/g;x
+http://a/b/c/g;x?y#s
+http://a/b/c/d;p?q
+http://a/b/c/
+http://a/b/c/
+http://a/b/
+http://a/b/
+http://a/b/g
+http://a/
+http://a/
+http://a/g
+https://www.example.com//////s
+example://a/b/c/%7Bfoo%7D
+eXAMPLE://a/./b/../b/%63/%7bfoo%7d
+http://example.com
+http://example.com/
+http://example.com:/
+http://example.com:80/
+
+# ChatGPT generated below
+
+# Basic HTTP and HTTPS URLs
+http://www.example.com
+https://www.example.com
+
+# Including user info
+http://user:password@www.example.com
+
+# Port numbers
+http://www.example.com:8080/path
+
+# Complex paths
+http://www.example.com/a/b/c/d/e/f/g/h/i/j/k/l/m
+
+# Query strings
+http://www.example.com/?q=search&lang=en
+
+# Fragments
+http://www.example.com/#section
+
+# IPv4 and IPv6 addresses
+http://192.168.1.1
+http://[2001:db8::1]
+
+# Percent-encoded characters
+http://www.example.com/blue%20sky
+
+# Special characters in path
+http://www.example.com/a/b/c/d;p=1/q;r=2
+
+# Mailto scheme
+mailto:user@example.com
+
+# File scheme
+file:///C:/path/to/file.txt
+file:///etc/fstab
+
+# URNs
+urn:isbn:0451450523
+urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66
+
+# Whitespace in URLs (usually needs to be percent-encoded)
+http://www.example.com/space%20here
+
+# Using semicolons as path segment parameters (less common but valid)
+http://www.example.com/;param1=value1;param2=value2
+
+# Edge cases and unusual but valid URLs
+http:with:relative:path
+https://@example.com
+https://example.com/
+https://
+https://#
+https://?
+
+# Internationalized domain names (IDN)
+http://xn--n3h.com/

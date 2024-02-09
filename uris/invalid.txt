@@ -1,0 +1,20 @@
+# Spaces are not allowed in URIs. They should be percent-encoded
+http://www. example.com
+
+# Invalid characters
+http://www.example.com/foo[bar]
+
+# Incomplete scheme
+://www.example.com
+
+# Unescaped special characters in the query string
+http://www.example.com/search?q=hello world&lang=en
+
+# Using unallowed characters in the scheme
+http://www.example.com#frag#ment
+
+# Illegal use of reserved characters
+http://www.exa<mple.com
+
+# Improper IPv6 format
+http://[2001:db8::1::]
