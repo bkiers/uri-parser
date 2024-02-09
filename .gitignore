@@ -4,6 +4,8 @@
 *.interp
 *.tokens
 
+target/
+
 # Compiled class file
 *.class
 
